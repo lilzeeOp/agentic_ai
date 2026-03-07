@@ -1,0 +1,15 @@
+Web Development with Python
+
+Python is widely used for web development, primarily through two frameworks: Django and Flask. Django is a full-featured framework created in 2005 that follows the "batteries included" philosophy. Flask is a lightweight micro-framework created in 2010 that gives developers more control.
+
+Django uses the MVT (Model-View-Template) architecture pattern. Models define database structure using Python classes. Views handle business logic and return responses. Templates render HTML pages. Django includes built-in admin panel, ORM (Object Relational Mapper), authentication, and security features.
+
+Flask is minimalist by design. A basic Flask app can be written in just 5 lines of code. Flask uses decorators for routing: @app.route("/hello") defines a URL endpoint. You add features through extensions like Flask-SQLAlchemy for databases and Flask-Login for authentication.
+
+REST APIs are a common use case for Python web frameworks. REST stands for Representational State Transfer. APIs use HTTP methods: GET to read data, POST to create, PUT to update, and DELETE to remove. FastAPI is a newer Python framework specifically designed for building APIs with automatic documentation.
+
+FastAPI was created by Sebastian Ramirez in 2018. It is built on top of Starlette and Pydantic. FastAPI automatically generates OpenAPI documentation, supports async/await for high performance, and uses Python type hints for request validation. It is currently one of the fastest growing Python frameworks.
+
+Database integration in Python web apps typically uses an ORM. SQLAlchemy is the most popular Python ORM. It lets you write Python code instead of raw SQL queries. For example, User.query.filter_by(name="Alice").first() instead of SELECT * FROM users WHERE name = 'Alice'.
+
+Deployment of Python web apps commonly uses services like Heroku, AWS, Google Cloud, or DigitalOcean. The app is typically served using Gunicorn or Uvicorn as the WSGI/ASGI server, often behind Nginx as a reverse proxy.

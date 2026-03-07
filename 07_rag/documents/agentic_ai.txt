@@ -1,0 +1,17 @@
+What is Agentic AI
+
+Agentic AI refers to artificial intelligence systems that can autonomously plan, reason, use tools, and take actions to accomplish goals. Unlike traditional chatbots that simply respond to questions, agentic AI systems can break down complex tasks and execute multi-step workflows.
+
+The foundation of agentic AI is the ReAct pattern, introduced in a 2023 paper by researchers at Princeton University and Google. ReAct stands for Reasoning and Acting. The agent follows a loop of Thought, Action, and Observation until it reaches a solution.
+
+Tool calling is a core capability of AI agents. The LLM decides which tools to use and with what parameters. Common tools include web search, code execution, file operations, database queries, and API calls. The LLM does not run the tools itself; it generates a request and the application executes it.
+
+Memory in agentic AI has two forms. Short-term memory is the conversation history sent with each API call. Long-term memory persists across sessions, typically stored in files or databases. Some agents also use vector databases for semantic memory search.
+
+Multi-agent systems use multiple specialized agents working together. An orchestrator agent delegates tasks to specialist agents like researchers, writers, or coders. Each agent has its own system prompt optimized for its specific role. This approach is used by systems like AutoGPT, CrewAI, and Microsoft AutoGen.
+
+RAG (Retrieval Augmented Generation) enhances agents by giving them access to external knowledge. Documents are split into chunks, converted to embeddings, and stored in a vector database. When a user asks a question, relevant chunks are retrieved and sent to the LLM as context.
+
+LangGraph is a framework by LangChain for building agentic workflows as graphs. Developers define nodes (functions) and edges (flow), and LangGraph manages the execution. It supports conditional routing, shared state, and complex multi-step workflows.
+
+The key players in agentic AI include OpenAI (GPT function calling), Anthropic (Claude tool use), Google (Gemini), LangChain (framework), and many startups building agent platforms like Devin for coding and Perplexity for research.

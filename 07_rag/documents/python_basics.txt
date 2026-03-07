@@ -1,0 +1,15 @@
+Python Programming Basics
+
+Python was created by Guido van Rossum and first released in 1991. It is named after the comedy group Monty Python, not the snake. Python emphasizes code readability and uses indentation to define code blocks instead of curly braces.
+
+Variables in Python do not need type declarations. You simply write x = 5 and Python figures out that x is an integer. This is called dynamic typing. Python supports multiple data types including integers, floats, strings, lists, tuples, dictionaries, and sets.
+
+Functions in Python are defined using the def keyword. For example: def greet(name): return f"Hello, {name}". Python also supports lambda functions for short anonymous functions, like: square = lambda x: x ** 2.
+
+Python uses lists as its primary ordered collection. Lists are mutable (can be changed) and are created with square brackets: fruits = ["apple", "banana", "cherry"]. Tuples are similar but immutable (cannot be changed) and use parentheses: point = (3, 5).
+
+Dictionaries store key-value pairs. They are created with curly braces: person = {"name": "Alice", "age": 30}. You access values using keys: person["name"] returns "Alice". Dictionaries are very fast for lookups.
+
+Python has a rich standard library that includes modules for file handling, math operations, date/time, JSON parsing, HTTP requests, and much more. This is often called Python's "batteries included" philosophy.
+
+Error handling in Python uses try/except blocks. You wrap risky code in a try block and handle errors in the except block. This prevents the program from crashing when unexpected errors occur.

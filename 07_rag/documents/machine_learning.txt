@@ -1,0 +1,15 @@
+Introduction to Machine Learning
+
+Machine learning is a subset of artificial intelligence where computers learn patterns from data instead of being explicitly programmed. The term was coined by Arthur Samuel in 1959 while working at IBM.
+
+There are three main types of machine learning. Supervised learning uses labeled data to train models, like teaching a model to classify emails as spam or not spam. Unsupervised learning finds patterns in unlabeled data, like grouping customers by purchasing behavior. Reinforcement learning trains agents through rewards and penalties, like teaching a robot to walk.
+
+Common supervised learning algorithms include Linear Regression for predicting numbers, Logistic Regression for classification, Decision Trees for rule-based decisions, Random Forests which combine many decision trees, and Neural Networks which mimic the human brain structure.
+
+The machine learning workflow has several steps. First you collect and clean data. Then you split data into training and testing sets, typically 80/20. You choose a model, train it on training data, evaluate it on test data, and tune hyperparameters to improve performance.
+
+Overfitting happens when a model memorizes training data but performs poorly on new data. It is like a student who memorizes answers but cannot solve new problems. Underfitting is the opposite, where the model is too simple to capture patterns. The goal is to find the right balance.
+
+Feature engineering is the process of selecting and transforming input variables to improve model performance. Good features can make a simple model outperform a complex one. Common techniques include normalization, one-hot encoding, and creating interaction features.
+
+Popular machine learning libraries in Python include scikit-learn for traditional ML, TensorFlow and PyTorch for deep learning, XGBoost for gradient boosting, and pandas/numpy for data manipulation.
